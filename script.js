@@ -8,7 +8,7 @@ function compute()
     var year = new Date().getFullYear() + parseInt(years);
     if(principal <= 0)
     {
-        alert("Please, enter a valid number.");
+        alert("Please, enter a positive number.");
         document.getElementById("principal").focus();
     }
     else{
